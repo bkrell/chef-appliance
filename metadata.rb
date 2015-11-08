@@ -5,3 +5,5 @@ license 'all_rights'
 description 'Installs/Configures wsappliance'
 long_description 'Installs/Configures wsappliance'
 version '0.1.0'
+
+depends 'apt', '~> 2.6.1'

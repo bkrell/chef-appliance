@@ -1,5 +1,7 @@
-#
-# Cookbook Name:: wsappliance
-# Recipe:: default
-#
-# Copyright (c) 2015 The Authors, All Rights Reserved.
+include_recipe 'apt::default'
+
+# install the prerequisite packages
+# python script will configure, so just use the default installs
+package 'apache2'
+package 'mysql-server'
+package 'unzip'
