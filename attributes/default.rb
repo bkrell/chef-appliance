@@ -1,0 +1,1 @@
+default['wsappliance']['sqlroot'] = 'roottest'
